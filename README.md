@@ -12,5 +12,5 @@
 For submission:
 - Github: https://github.com/pelkeycj/CS4550-HW01
 - Home site: http://www.pelkey.tech/
-- HW01 site: http://www.hw01.pelkey.tech/
+- HW01 site: http://hw01.pelkey.tech/
 
