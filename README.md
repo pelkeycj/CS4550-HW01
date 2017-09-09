@@ -7,3 +7,10 @@
 - CCIS: pelkeycj
 - Domain: pelkey.tech
 - Codecademy progress: HTML(33%), CSS(28%)
+
+
+For submission:
+- Github: https://github.com/pelkeycj/CS4550-HW01
+- Home site: http://www.pelkey.tech/
+- HW01 site: http://www.hw01.pelkey.tech/
+
