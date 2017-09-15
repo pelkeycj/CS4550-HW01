@@ -8,11 +8,17 @@ nav {
 
 
 .form-center {
-    position: relative;
-    width: 200px;
     margin: auto;
+    align-content: center;
 }
 
+.navbar-nav {
+    width: 20%;
+}
+
+.navbar-brand {
+    width: 20%;
+}
 
 .nav-item {
     float: right;
