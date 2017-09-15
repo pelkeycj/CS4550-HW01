@@ -1,14 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
     <title>Design</title>
 </head>
 <body>
-    <!--TODO  style with bootstrap-->
-    <!--TODO  use first-->
-    <!--TODO  data first-->
+
+<div class="content ml-5 mr-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="mt-3">Design</h1>
+        </div>
+        <div class="col-md-8 mt-5">
+            <h3>User First</h3>
+            <ul>
+                <li>
+                    <p><strong>As a new user, Alice should be able to register.</strong></p>
+                    <ul>
+                        <li>
+                            <p>Click on a sign up button on the home page. This
+                            will take her to a signup page where she will enter
+                            her name, username/handle, email, password. She will
+                            then click a 'finish' button and a page will tell her
+                            to check her email and follow the link within to complete
+                            registration.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>As a regular user, Alice should be able to make a post.</strong></p>
+                    <ul>
+                        <li>
+                            <p>Click on new post icon/button. She is then brought to a
+                            form page where she fills out a title, body text/image,
+                                hashtag fields. She then clicks post and is brought
+                            to the home screen where the post is shown.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>As a regular user, Alice should be
+                        able to search for users/posts.</strong></p>
+                    <ul>
+                        <li>
+                            <p>Click on the search bar and type the keywords. Select whether to
+                            search for users or hashtags. A page will appear that will contain
+                            users or posts with the hashtag. Alice can then click on the users
+                            to visit their profile, or open a post.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>As a regular user, Alice should be
+                        able to view followers/following.</strong></p>
+                    <ul>
+                        <li>
+                            <p>Click on follower/following boxes to see a page with a list of
+                            users. She can then unfollow people from this page or visit profiles.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>As a regular user, Alice should be able to view
+                        her homepage and profile page.</strong></p>
+                    <ul>
+                        <li>
+                            <p>Clicking a link to the home page should bring up a list of the most recent
+                            posts made by users she follows. Clicking on her profile should show
+                            Alice's information as well as her post history.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>As a regular user,
+                        Alice should be able to comment/like posts.</strong></p>
+                    <ul>
+                        <li>
+                            <p>Clicking on 'comment' brings up a box where she can
+                            enter text and then press submit. Clicking on like, should
+                            add a like to the post and save the post in Alice's list
+                            of likes</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>As a regular user,
+                        Alice should be able to edit her account</strong></p>
+                    <ul>
+                        <li>
+                            <p>Clicking on an edit profile button should bring up a page
+                            where Alice can change information such as her name, profile photo,
+                            birthday, bio, etc. She will then press 'save changes' to be brought
+                            back to her profile page.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>As a regular user,
+                        Alice should be able to report comments/posts/users.</strong></p>
+                    <ul>
+                        <li>
+                            <p>Upon finding innapropriate content, Alice should be able
+                            to click on flag icon to submit a report. This will bring up a
+                            form where she can fill out the reason for the report.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>As a regular user,
+                        Alice should be able to explore to find new users/posts.</strong></p>
+                    <ul>
+                        <li>
+                            <p>Alice will click on the 'explore' button/icon and
+                            will be brought to a page where she can see profile cards and
+                            posts from users who she does not follow. The explore page
+                            will have two separate sections -> one for users and
+                            one for posts. Alice can click on each to be brought to a page
+                            consisting of solely the selected type.</p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <p><strong>As an admin, Bob should be able
+                        to delete posts/comments and ban users.</strong></p>
+                    <ul>
+                        <li>
+                            <p>Bob should be shown additional options after clicking on the report
+                            flag that will allow him to remove posts that are inappropriate or
+                            ban users.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-12 mt-5">
+            <h3>Data First</h3>
+        </div>
+        <div class="col-md-6 mb-5">
+            <p><strong>Users:</strong></p>
+            <ul>
+                <li>Photo</li>
+                <li>Name</li>
+                <li>Handle (unique)</li>
+                <li>Password</li>
+                <li>Email</li>
+                <li>Security Q + A</li>
+                <li>History of posts</li>
+                <li>Liked posts</li>
+                <li>Birthday</li>
+                <li>Bio/About me</li>
+                <li>Phone number</li>
+                <li>Following</li>
+                <li>Followers</li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+            <p><strong>Posts:</strong></p>
+            <ul>
+                <li>Datetime of creation</li>
+                <li>User who created</li>
+                <li>Header/title of post</li>
+                <li>Body of post -> Text/Image/Both</li>
+                <li>Hashtags</li>
+                <li>Comments (basically miniposts)</li>
+                <li>Likes</li>
+            </ul>
+        </div>
+    </div>
+
+    <p>What will appear for each resource for each application page:</p>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th class="text-center">Action</th>
+            <th class="text-center">User</th>
+            <th class="text-center">Post</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">CREATE</th>
+            <td>A confirmation page that will appear upon creation of an account.
+            It will display the entered profile data.</td>
+            <td>A confirmation page that will appear upon creation of a post.
+            It will display the information that the user entered when creating the post</td>
+        </tr>
+        <tr>
+            <th scope="row">SHOW</th>
+            <td>A page displaying the users name, profile photo, bio, and a list
+            of posts from most to least recent.</td>
+            <td>A page displaying the posts author info (photo, name, handle), title
+            of post, a body area filled with text, image, or both, and a hashtag section.
+            It will also display recent comments/ number of likes at bottom.</td>
+        </tr>
+        <tr>
+            <th scope="row">UPDATE</th>
+            <td>This is the edit profile page. Allows user to fill out/change
+            information in a form. All previously listed information can be changed
+                with the exception of followers/following/history of posts/liked posts/handle.</td>
+            <td>This will bring up a page identical to the Post CREATE page except it will be
+            filled out already. The user can then add/delete information and save.</td>
+        </tr>
+        <tr>
+            <th scope="row">DELETE</th>
+            <td>This page will appear after clicking on a delete icon in the UPDATE/Edit
+            Profile page. The user will be brought to a confirmation page where they
+            will enter their password to confirm deletion of account.</td>
+            <td>This page will appear after clicking on a delete icon in the UPDAT/Edit
+            Post page. The user will be asked to confirm deletion.</td>
+        </tr>
+        <tr>
+            <th scope="row">NEW</th>
+            <td>This will be the sign up page where a new user will enter
+                information such as name, unique handle, password, and email to sign up.
+                Additional information such as phone number, security Q+A, profile photo, etc.
+                will be optional information filled out through editing profile.</td>
+            <td>User will fill out a form with post title, post body (text/image), and the
+                hashtags.</td>
+        </tr>
+        <tr>
+            <th scope="row">INDEX</th>
+            <td>This is the page that will appear upon using the explore feature and selecting 'users'.
+            A page filled with cards displaying user profiles will appear, which can be clicked on to
+            open up that user's profile.</td>
+            <td>The home page of the application. Displays all posts created by followed
+            users in chronological order.</td>
+        </tr>
+
+        </tbody>
+    </table>
+
+</div>
 
 
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 </html>
