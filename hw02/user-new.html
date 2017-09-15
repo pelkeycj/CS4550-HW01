@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
     <link rel="stylesheet" href="template/template-style.css" type="text/css">
+    <link rel="stylesheet" href="user-new.css" type="text/css">
     <title>User-New</title>
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark navbar-expand-md">
+<nav class="navbar navbar-expand-lg navbar-dark navbar-expand-md">
     <a class="navbar-brand" href="#">
         <img src="template/mu.png" width="40" height="40" alt="logo">
         <strong>micro</strong>
@@ -43,11 +44,35 @@
 </nav>
 
 <!-- body of new user page -->
-<div class="container">
-    <div class="row">
 
+<div class="container mt-50">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="text-center mt-4 mb-4">sign up</h1>
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="user-name" placeholder="name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="user-handle" placeholder="@nandle">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="user-email" placeholder="email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="user-pw" placeholder="password">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="user-pw-confirm" placeholder="confirm password">
+                </div>
+                <div class="col-md-12 text-center">
+                    <button type="button" class="btn btn-primary">submit</button>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
+
 
 
 <!-- Optional JavaScript -->
