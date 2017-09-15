@@ -7,16 +7,45 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="template-style.css" type="text/css">
     <title>Template</title>
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <img src="mu.png" width="60" height="60">
-        micro
+<nav class="navbar fixed-top navbar-dark navbar-expand-md">
+    <a class="navbar-brand text-dark" href="#">
+        <img src="mu.png" width="40" height="40">
+        <strong>micro</strong>
     </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#main-navbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <form class="form-inline form-center">
+        <input class="form-control form-control-sm mr-sm-2 searchbar" type="text" placeholder="search">
+    </form>
+
+    <ul class="navbar-nav justify-content-end">
+        <li class="nav-item">
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><strong>explore</strong></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><strong>alerts</strong></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><strong>profile</strong></a>
+        </li>
+    </ul>
+
+
+
 </nav>
 
 <!-- Optional JavaScript -->
