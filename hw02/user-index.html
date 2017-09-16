@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
     <link rel="stylesheet" href="template/template-style.css" type="text/css">
+    <link rel="stylesheet" href="user-index.css" type="text/css">
+    <link rel="stylesheet" href="user-show.css" type="text/css">
     <title>User-Index</title>
 </head>
 <body>
@@ -16,7 +18,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark navbar-expand-md">
     <a class="navbar-brand" href="#">
-        <img src="../res/mu.png" width="40" height="40" alt="logo">
+        <img src="res/mu.png" width="40" height="40" alt="logo">
         <strong>micro</strong>
     </a>
 
@@ -32,9 +34,7 @@
         </form>
 
         <ul class="navbar-nav justify-content-end">
-            <li class="nav-item">
 
-            </li>
             <li class="nav-item">
                 <a class="nav-link" href="#"><strong>explore</strong></a>
             </li>
@@ -45,15 +45,119 @@
                 <a class="nav-link" href="#"><strong>profile</strong></a>
             </li>
         </ul>
+    </div>
+</nav>
 
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 mt-5 text-center">
+            <h1>explore</h1>
+        </div>
+    </div>
+
+    <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active post-nav" href="#">people</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link post-nav" href="#">posts</a>
+        </li>
+    </ul>
+    </nav>
+
+    <!-- user profile cards -->
+    <div class="card-columns mt-5">
+        <div class="card bg-light mx-auto">
+            <img class="card-img-top" src="res/profile-stock.png" alt="profile image">
+            <div class="card-header">
+                <a class="card-tag" href="#"><span class="user-handle">@pelkeycj</span></a>
+            </div>
+            <div class="card-body">
+                <h4 class="text-center">Connor Pelkey</h4>
+                <p class="card-text">User's bio goes here.</p>
+            </div>
+        </div>
+
+        <div class="card bg-light mx-auto">
+            <img class="card-img-top" src="res/profile-stock.png" alt="profile image">
+            <div class="card-header">
+                <a class="card-tag" href="#"><span class="user-handle">@jimjohn</span></a>
+            </div>
+            <div class="card-body">
+                <h4 class="text-center">Jim H</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            </div>
+        </div>
+
+        <div class="card bg-light mx-auto">
+            <img class="card-img-top" src="res/profile-stock.png" alt="profile image">
+            <div class="card-header">
+                <a class="card-tag" href="#"><span class="user-handle">@bird</span></a>
+            </div>
+            <div class="card-body">
+                <h4 class="text-center">bird</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            </div>
+        </div>
+
+
+        <div class="card bg-light mx-auto">
+            <img class="card-img-top" src="res/profile-stock.png" alt="profile image">
+            <div class="card-header">
+                <a class="card-tag" href="#"><span class="user-handle">@hlep</span></a>
+            </div>
+            <div class="card-body">
+                <h4 class="text-center">Brittany R</h4>
+                <p class="card-text"></p>
+            </div>
+        </div>
+
+        <div class="card bg-light mx-auto">
+            <img class="card-img-top" src="res/profile-stock.png" alt="profile image">
+            <div class="card-header">
+                <a class="card-tag" href="#"><span class="user-handle">@a_user</span></a>
+            </div>
+            <div class="card-body">
+                <h4 class="text-center">User</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            </div>
+        </div>
+
+        <div class="card bg-light mx-auto">
+            <img class="card-img-top" src="res/profile-stock.png" alt="profile image">
+            <div class="card-header">
+                <a class="card-tag" href="#"><span class="user-handle">@hi</span></a>
+            </div>
+            <div class="card-body">
+                <h4 class="text-center">Hello</h4>
+                <p class="card-text">hello</p>
+            </div>
+        </div>
+
+        <div class="card bg-light mx-auto">
+            <img class="card-img-top" src="res/profile-stock.png" alt="profile image">
+            <div class="card-header">
+                <a class="card-tag" href="#"><span class="user-handle">@cat</span></a>
+            </div>
+            <div class="card-body">
+                <h4 class="text-center">cat</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            </div>
+        </div>
 
 
 
     </div>
 
-
-</nav>
+</div>
+<!-- TODO explore header, navbar showing people/posts -->
+<!-- TODO card columns of users
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
