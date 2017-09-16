@@ -23,6 +23,7 @@ nav {
 .nav-item {
     float: right;
 }
+
 .navbar-nav > li > a > strong {
     color: white;
 }
